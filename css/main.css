@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+.w-12 {
+    width: 3rem;
+}
+
+.bg-grey {
+    background-color: darkgray;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem;
+}
+
+.max-w-sm {
+    max-width: 24rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.space-x-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
