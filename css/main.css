@@ -1,45 +1,17 @@
-.flex {
-    display: flex;
+@media (min-width: 768px) {
+    .md\:yuzu-fur-row {
+        background: rgb(242,209,107) !important;
+        background: -moz-linear-gradient(90deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%)!important;
+        background: -webkit-linear-gradient(90deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%)!important;
+        background: linear-gradient(90deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%)!important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2d16b",endColorstr="#d77c42",GradientType=1)!important;
+    }
 }
 
-.shrink-0 {
-    flex-shrink: 0;
-}
-
-.p-6 {
-    padding: 1.5rem;
-}
-
-.h-12 {
-    height: 3rem;
-}
-
-.w-12 {
-    width: 3rem;
-}
-
-.bg-grey {
-    background-color: darkgray;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.rounded-xl {
-    border-radius: 0.75rem;
-}
-
-.max-w-sm {
-    max-width: 24rem;
-}
-
-.text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-}
-
-.space-x-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+.yuzu-fur-col {
+    background: rgb(242,209,107);
+    background: -moz-linear-gradient(180deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%);
+    background: linear-gradient(180deg, rgba(242,209,107,1) 0%, rgba(234,159,81,1) 50%, rgba(215,124,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2d16b",endColorstr="#d77c42",GradientType=1); 
 }
