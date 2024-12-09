@@ -1,127 +1,210 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-</head>
-
-<body
-    class="grid bg-gradient-to-b from-sky-800 to-orange-400 p-3 md:p-6 text-base font-sans text-zinc-800 min-h-screen min-w-screen place-items-center content-start">
-    <div class="mx-auto flex flex-col xl:flex-row items-start items-stretch justify-start">
-        <div class="drop-shadow-xl flex flex-row flex-wrap xl:flex-col items-stretch sm:min-w-[20rem]">
+    <body
+        class="grid bg-gradient-to-b from-sky-800 to-orange-400 p-3 md:p-6 text-base font-sans text-zinc-800 min-h-screen min-w-screen place-items-center content-start"
+    >
+        <div
+            class="mx-auto flex flex-col xl:flex-row items-start items-stretch justify-start"
+        >
             <div
-                class="max-md:basis-full order-1 drop-shadow-xl flex-auto grow xl:grow-0 flex flex-col xl:flex-row p-6 m-1 md:m-2 items-center justify-center xl:justify-start shrink-0 bg-slate-800/50 rounded-lg text-center xl:text-left">
-                <img class="drop-shadow-xl max-xl:m-2 mr-2 h-20 w-20 rounded-lg" src="img/stCi6H-B_400x400.jpg">
-                <div>
-                    <div class="mt-2 xl:ml-2 text-xl text-white uppercase">Walnut Fox</div>
-                    <p class="xl:ml-2 text-white font-medium mb-2">Silly Deer Fox</p>
-                </div>
-            </div>
-            <div
-                class="order-3 md:max-xl:order-2 drop-shadow-xl md:flex-auto max-md:w-full grow-0 max-md:justify-center items-baseline text-lg text-white flex flex-wrap flex-row md:flex-col xl:grow-0 p-3 md:p-6 m-1 md:m-2 bg-slate-800/50 rounded-lg">
-                <p class="my-1 max-md:ml-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-camera fa-fw mr-1"></i>
-                    Photographer
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-computer fa-fw mr-1"></i>
-                    Tech Enthusiast
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-brain fa-fw mr-1"></i>
-                    ADHD
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-print fa-fw mr-1"></i>
-                    3D Printing hobbyist
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-terminal fa-fw mr-1"></i>
-                    SysAdmin
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-scroll fa-fw mr-1"></i>
-                    Language Learner
-                </p>
-                <span class="mx-1 md:hidden">&#x2022;</span>
-                <p class="my-1 max-md:mr-1 md:mx-2 shrink">
-                    <i class="max-md:hidden fa-solid fa-tv fa-fw mr-1"></i>
-                    Anime Enjoyer
-                </p>
-            </div>
-            <div
-                class="order-2 md:max-xl:order-3 drop-shadow-xl max-md:justify-between flex-auto xl:flex-none flex md:flex-col px-3 md:p-6 m-1 md:m-2 md:bg-slate-800/50 rounded-lg max-md:items-baseline md:item-stretch">
-                <a class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-indigo-800 p-3 m-2"
-                    rel="me" href="https://pawb.fun/@WalnutFox">
-                    <i class="fa-brands fa-mastodon md:mr-2"></i>
-                    <span class="max-md:hidden">Mastodon</span>
-                </a>
-                <a class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-sky-500 p-3 m-2"
-                    href="https://twitter.com/walnutfox">
-                    <i class="fa-brands fa-twitter md:mr-2"></i>
-                    <span class="max-md:hidden">Twitter</span>
-                </a>
-                <a class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-gray-500 p-3 m-2"
-                    href="https://github.com/RustedAperture">
-                    <i class="fa-brands fa-github md:mr-2"></i>
-                    <span class="max-md:hidden">Github</span>
-                </a>
-                <a class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-zinc-900 p-3 m-2"
-                    href="https://www.furaffinity.net/user/walnutfox/">
-                    <i class="fa-solid fa-paw md:mr-2"></i>
-                    <span class="max-md:hidden">Furaffinity</span>
-                </a>
-            </div>
-        </div>
-        <div class="flex flex-col max-w-7xl">
-            <div
-                class="drop-shadow-xl flex flex-col p-3 md:p-6 m-1 md:m-2 items-center shrink-0 bg-slate-800/50 rounded-lg">
-                <a href="https://www.furaffinity.net/view/49441057/" class="mx-2 my-2">
-                    <img src="img/1666051653.walnutfox_refsheet.png" alt="" class="rounded-lg">
-                </a>
-                <div class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full">
-                    <p class="md:grow text-center text-white rounded-lg p-3 m-2" style="background-color:#F29851">
-                        #F29851</p>
-                    <p class="md:grow text-center text-white rounded-lg p-3 m-2" style="background-color:#50ACED">
-                        #50ACED</p>
-                    <p class="md:grow text-center text-white rounded-lg p-3 mx-2 m-2" style="background-color:#907055">
-                        #907055</p>
-                </div>
-            </div>
-            <div
-                class="drop-shadow-xl flex flex-col p-3 md:p-6 m-1 md:m-2 items-center shrink-0 bg-slate-800/50 rounded-lg">
-                <a href="https://www.furaffinity.net/view/51405241/" class="m-2">
-                    <img src="img/Yuzu.png" alt="" class="rounded-lg">
-                </a>
-                <div class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full">
-                    <p class="md:grow text-center text-white rounded-lg p-3 m-2" style="background-color:#56438C">
-                        <strong>Eyes:</strong> #56438C</p>
-                    <p class="md:grow text-center text-white rounded-lg p-3 m-2" style="background-color:#9F3F1B">
-                        <strong>Jacket:</strong> #9F3F1B</p>
-                </div>
-                <div class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full">
-                    <p class="md:basis-1/5 text-center text-slate rounded-lg p-3 m-2" style="background-color:#F7E1A1">
-                        <strong>Belly:</strong> #F7E1A1</p>
-                    <div class="flex-auto flex flex-col md:flex-row items-stretch md:basis-3/5 text-center text-slate rounded-lg p-3 m-2 yuzu-fur-col md:yuzu-fur-row">
-                        <span class="md:grow p-3 md:p-0"><strong>Fur:</strong> #F2D16B</span>
-                        <span class="md:grow p-3 md:p-0"><strong>Fur:</strong> #EA9F51</span>
-                        <span class="md:grow p-3 md:p-0"><strong>Fur:</strong> #D77C42</span>
+                class="drop-shadow-xl flex flex-row flex-wrap xl:flex-col items-stretch sm:min-w-[20rem]"
+            >
+                <div
+                    class="max-md:basis-full order-1 drop-shadow-xl flex-auto grow xl:grow-0 flex flex-col xl:flex-row p-6 m-1 md:m-2 items-center justify-center xl:justify-start shrink-0 bg-slate-800/50 rounded-lg text-center xl:text-left"
+                >
+                    <img
+                        class="drop-shadow-xl max-xl:m-2 mr-2 h-20 w-20 rounded-lg"
+                        src="img/stCi6H-B_400x400.jpg"
+                    />
+                    <div>
+                        <div class="mt-2 xl:ml-2 text-xl text-white uppercase">
+                            Walnut Fox
+                        </div>
+                        <p class="xl:ml-2 text-white font-medium mb-2">
+                            Silly Deer Fox
+                        </p>
                     </div>
-                    <p class="md:basis-1/5 text-center text-white rounded-lg p-3 mx-2 m-2" style="background-color:#F1BE61">
-                        <strong>Paws:</strong> #F1BE61</p>
+                </div>
+                <div
+                    class="order-3 md:max-xl:order-2 drop-shadow-xl md:flex-auto max-md:w-full grow-0 max-md:justify-center items-baseline text-lg text-white flex flex-wrap flex-row md:flex-col xl:grow-0 p-3 md:p-6 m-1 md:m-2 bg-slate-800/50 rounded-lg"
+                >
+                    <p class="my-1 max-md:ml-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-camera fa-fw mr-1"
+                        ></i>
+                        Photographer
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-computer fa-fw mr-1"
+                        ></i>
+                        Tech Enthusiast
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-brain fa-fw mr-1"
+                        ></i>
+                        ADHD
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-print fa-fw mr-1"
+                        ></i>
+                        3D Printing hobbyist
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-terminal fa-fw mr-1"
+                        ></i>
+                        SysAdmin
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 md:mx-2 shrink">
+                        <i
+                            class="max-md:hidden fa-solid fa-scroll fa-fw mr-1"
+                        ></i>
+                        Language Learner
+                    </p>
+                    <span class="mx-1 md:hidden">&#x2022;</span>
+                    <p class="my-1 max-md:mr-1 md:mx-2 shrink">
+                        <i class="max-md:hidden fa-solid fa-tv fa-fw mr-1"></i>
+                        Anime Enjoyer
+                    </p>
+                </div>
+                <div
+                    class="order-2 md:max-xl:order-3 drop-shadow-xl max-md:justify-between flex-auto xl:flex-none flex md:flex-col px-3 md:p-6 m-1 md:m-2 md:bg-slate-800/50 rounded-lg max-md:items-baseline md:item-stretch"
+                >
+                    <a
+                        class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-sky-500 p-3 m-2"
+                        href="https://bsky.app/profile/walnutfox.xyz"
+                    >
+                        <i class="fa-brands fa-bluesky md:mr-2"></i>
+                        <span class="max-md:hidden">Blueky</span>
+                    </a>
+                    <a
+                        class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-gray-500 p-3 m-2"
+                        href="https://github.com/RustedAperture"
+                    >
+                        <i class="fa-brands fa-github md:mr-2"></i>
+                        <span class="max-md:hidden">Github</span>
+                    </a>
+                    <a
+                        class="min-w-[48px] drop-shadow-xl xl:grow text-center text-white md:rounded-lg max-md:rounded-full bg-zinc-900 p-3 m-2"
+                        href="https://www.furaffinity.net/user/walnutfox/"
+                    >
+                        <i class="fa-solid fa-paw md:mr-2"></i>
+                        <span class="max-md:hidden">Furaffinity</span>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col max-w-7xl">
+                <div
+                    class="drop-shadow-xl flex flex-col p-3 md:p-6 m-1 md:m-2 items-center shrink-0 bg-slate-800/50 rounded-lg"
+                >
+                    <a
+                        href="https://www.furaffinity.net/view/49441057/"
+                        class="mx-2 my-2"
+                    >
+                        <img
+                            src="img/1666051653.walnutfox_refsheet.png"
+                            alt=""
+                            class="rounded-lg"
+                        />
+                    </a>
+                    <div
+                        class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full"
+                    >
+                        <p
+                            class="md:grow text-center text-white rounded-lg p-3 m-2"
+                            style="background-color: #f29851"
+                        >
+                            #F29851
+                        </p>
+                        <p
+                            class="md:grow text-center text-white rounded-lg p-3 m-2"
+                            style="background-color: #50aced"
+                        >
+                            #50ACED
+                        </p>
+                        <p
+                            class="md:grow text-center text-white rounded-lg p-3 mx-2 m-2"
+                            style="background-color: #907055"
+                        >
+                            #907055
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="drop-shadow-xl flex flex-col p-3 md:p-6 m-1 md:m-2 items-center shrink-0 bg-slate-800/50 rounded-lg"
+                >
+                    <a
+                        href="https://www.furaffinity.net/view/51405241/"
+                        class="m-2"
+                    >
+                        <img src="img/Yuzu.png" alt="" class="rounded-lg" />
+                    </a>
+                    <div
+                        class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full"
+                    >
+                        <p
+                            class="md:grow text-center text-white rounded-lg p-3 m-2"
+                            style="background-color: #56438c"
+                        >
+                            <strong>Eyes:</strong> #56438C
+                        </p>
+                        <p
+                            class="md:grow text-center text-white rounded-lg p-3 m-2"
+                            style="background-color: #9f3f1b"
+                        >
+                            <strong>Jacket:</strong> #9F3F1B
+                        </p>
+                    </div>
+                    <div
+                        class="flex-auto md:flex-none flex flex-col md:flex-row mx-2 items-stretch w-full"
+                    >
+                        <p
+                            class="md:basis-1/5 text-center text-slate rounded-lg p-3 m-2"
+                            style="background-color: #f7e1a1"
+                        >
+                            <strong>Belly:</strong> #F7E1A1
+                        </p>
+                        <div
+                            class="flex-auto flex flex-col md:flex-row items-stretch md:basis-3/5 text-center text-slate rounded-lg p-3 m-2 yuzu-fur-col md:yuzu-fur-row"
+                        >
+                            <span class="md:grow p-3 md:p-0"
+                                ><strong>Fur:</strong> #F2D16B</span
+                            >
+                            <span class="md:grow p-3 md:p-0"
+                                ><strong>Fur:</strong> #EA9F51</span
+                            >
+                            <span class="md:grow p-3 md:p-0"
+                                ><strong>Fur:</strong> #D77C42</span
+                            >
+                        </div>
+                        <p
+                            class="md:basis-1/5 text-center text-white rounded-lg p-3 mx-2 m-2"
+                            style="background-color: #f1be61"
+                        >
+                            <strong>Paws:</strong> #F1BE61
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
